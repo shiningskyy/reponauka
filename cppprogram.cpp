@@ -10,7 +10,7 @@ int main(){
         temp.insert(temp.begin(), {std::rand()%1000, std::rand()%1000});
         wektor.push_back(temp);
     }
-
+    pritnf("hellooo");
     for(auto &rows: wektor){
         for(auto &cols: rows){
             std::cout<<cols<<' ';
